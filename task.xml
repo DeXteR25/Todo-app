@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+ <TextView
+    android:id="@+id/txt_h"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Title"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true"
+     android:layout_marginTop="46dp" />
+
+    <EditText
+        android:id="@+id/edt_1"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_cornor"
+        android:layout_height="30dp"
+        android:hint="Your Task"
+        android:layout_below="@+id/txt_h"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+    <TextView
+        android:id="@+id/txt_h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail"
+        android:layout_below="@+id/edt_1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+    <EditText
+        android:id="@+id/edt_2"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_cornor"
+        android:layout_height="90dp"
+        android:hint="Detail of your task"
+        android:layout_below="@+id/txt_h2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:onClick="save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="SAVE"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
